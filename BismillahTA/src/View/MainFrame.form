@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="cc" red="cc" type="rgb"/>
+        </Property>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="false"/>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JComboBox" name="jSource">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="85">
+                <StringItem index="0" value="- Start Point -"/>
+                <StringItem index="1" value="IF1.01.01"/>
+                <StringItem index="2" value="IF1.01.02"/>
+                <StringItem index="3" value="IF1.01.03"/>
+                <StringItem index="4" value="IF1.01.04"/>
+                <StringItem index="5" value="IF1.01.05"/>
+                <StringItem index="6" value="IF1.01.06"/>
+                <StringItem index="7" value="IF1.01.07"/>
+                <StringItem index="8" value="IF1.01.08"/>
+                <StringItem index="9" value="IF1.01.09"/>
+                <StringItem index="10" value="IF1.01.10"/>
+                <StringItem index="11" value="IF1.02.01"/>
+                <StringItem index="12" value="IF1.02.02"/>
+                <StringItem index="13" value="IF1.02.03"/>
+                <StringItem index="14" value="IF1.02.04"/>
+                <StringItem index="15" value="IF1.02.05"/>
+                <StringItem index="16" value="IF1.02.06"/>
+                <StringItem index="17" value="IF1.02.07"/>
+                <StringItem index="18" value="IF1.02.08"/>
+                <StringItem index="19" value="IF1.02.09"/>
+                <StringItem index="20" value="IF1.02.10"/>
+                <StringItem index="21" value="IF1.02.11"/>
+                <StringItem index="22" value="IF1.03.01"/>
+                <StringItem index="23" value="IF1.03.02"/>
+                <StringItem index="24" value="IF1.03.03"/>
+                <StringItem index="25" value="IF1.03.04"/>
+                <StringItem index="26" value="IF1.03.05"/>
+                <StringItem index="27" value="IF1.03.08"/>
+                <StringItem index="28" value="IF1.03.10"/>
+                <StringItem index="29" value="IF1.03.11"/>
+                <StringItem index="30" value="IF1.03.12"/>
+                <StringItem index="31" value="IF1.03.14"/>
+                <StringItem index="32" value="IF1.03.15"/>
+                <StringItem index="33" value="IF2.01.01"/>
+                <StringItem index="34" value="IF2.01.02"/>
+                <StringItem index="35" value="IF2.01.03"/>
+                <StringItem index="36" value="IF2.01.04"/>
+                <StringItem index="37" value="IF2.01.05"/>
+                <StringItem index="38" value="IF2.01.06"/>
+                <StringItem index="39" value="IF2.01.07"/>
+                <StringItem index="40" value="IF2.01.08"/>
+                <StringItem index="41" value="IF2.01.09"/>
+                <StringItem index="42" value="IF2.01.10"/>
+                <StringItem index="43" value="IF2.02.01"/>
+                <StringItem index="44" value="IF2.02.02"/>
+                <StringItem index="45" value="IF2.02.03"/>
+                <StringItem index="46" value="IF2.02.04"/>
+                <StringItem index="47" value="IF2.02.05"/>
+                <StringItem index="48" value="IF2.02.06"/>
+                <StringItem index="49" value="IF2.02.07"/>
+                <StringItem index="50" value="IF2.02.08"/>
+                <StringItem index="51" value="IF2.02.09"/>
+                <StringItem index="52" value="IF2.03.01"/>
+                <StringItem index="53" value="IF2.03.02"/>
+                <StringItem index="54" value="IF2.03.03"/>
+                <StringItem index="55" value="IF2.03.04"/>
+                <StringItem index="56" value="IF2.03.05"/>
+                <StringItem index="57" value="IF2.03.06"/>
+                <StringItem index="58" value="IF2.03.07"/>
+                <StringItem index="59" value="IF2.03.08"/>
+                <StringItem index="60" value="IF3.01.01"/>
+                <StringItem index="61" value="IF3.01.02"/>
+                <StringItem index="62" value="IF3.01.03"/>
+                <StringItem index="63" value="IF3.01.04"/>
+                <StringItem index="64" value="IF3.01.05"/>
+                <StringItem index="65" value="IF3.01.06"/>
+                <StringItem index="66" value="IF3.01.07"/>
+                <StringItem index="67" value="IF3.01.08"/>
+                <StringItem index="68" value="IF3.02.01"/>
+                <StringItem index="69" value="IF3.02.02"/>
+                <StringItem index="70" value="IF3.02.03"/>
+                <StringItem index="71" value="IF3.02.05"/>
+                <StringItem index="72" value="IF3.02.06"/>
+                <StringItem index="73" value="IF3.02.07"/>
+                <StringItem index="74" value="IF3.02.08"/>
+                <StringItem index="75" value="IF3.02.10"/>
+                <StringItem index="76" value="IF3.02.11"/>
+                <StringItem index="77" value="IF3.03.01"/>
+                <StringItem index="78" value="IF3.03.02"/>
+                <StringItem index="79" value="IF3.03.03"/>
+                <StringItem index="80" value="IF3.03.04"/>
+                <StringItem index="81" value="IF3.03.05"/>
+                <StringItem index="82" value="IF3.03.06"/>
+                <StringItem index="83" value="IF3.03.07"/>
+                <StringItem index="84" value=" "/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="10" y="70" width="240" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="jDestination">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="85">
+                <StringItem index="0" value="- Destination Point -"/>
+                <StringItem index="1" value="IF1.01.01"/>
+                <StringItem index="2" value="IF1.01.02"/>
+                <StringItem index="3" value="IF1.01.03"/>
+                <StringItem index="4" value="IF1.01.04"/>
+                <StringItem index="5" value="IF1.01.05"/>
+                <StringItem index="6" value="IF1.01.06"/>
+                <StringItem index="7" value="IF1.01.07"/>
+                <StringItem index="8" value="IF1.01.08"/>
+                <StringItem index="9" value="IF1.01.09"/>
+                <StringItem index="10" value="IF1.01.10"/>
+                <StringItem index="11" value="IF1.02.01"/>
+                <StringItem index="12" value="IF1.02.02"/>
+                <StringItem index="13" value="IF1.02.03"/>
+                <StringItem index="14" value="IF1.02.04"/>
+                <StringItem index="15" value="IF1.02.05"/>
+                <StringItem index="16" value="IF1.02.06"/>
+                <StringItem index="17" value="IF1.02.07"/>
+                <StringItem index="18" value="IF1.02.08"/>
+                <StringItem index="19" value="IF1.02.09"/>
+                <StringItem index="20" value="IF1.02.10"/>
+                <StringItem index="21" value="IF1.02.11"/>
+                <StringItem index="22" value="IF1.03.01"/>
+                <StringItem index="23" value="IF1.03.02"/>
+                <StringItem index="24" value="IF1.03.03"/>
+                <StringItem index="25" value="IF1.03.04"/>
+                <StringItem index="26" value="IF1.03.05"/>
+                <StringItem index="27" value="IF1.03.08"/>
+                <StringItem index="28" value="IF1.03.10"/>
+                <StringItem index="29" value="IF1.03.11"/>
+                <StringItem index="30" value="IF1.03.12"/>
+                <StringItem index="31" value="IF1.03.14"/>
+                <StringItem index="32" value="IF1.03.15"/>
+                <StringItem index="33" value="IF2.01.01"/>
+                <StringItem index="34" value="IF2.01.02"/>
+                <StringItem index="35" value="IF2.01.03"/>
+                <StringItem index="36" value="IF2.01.04"/>
+                <StringItem index="37" value="IF2.01.05"/>
+                <StringItem index="38" value="IF2.01.06"/>
+                <StringItem index="39" value="IF2.01.07"/>
+                <StringItem index="40" value="IF2.01.08"/>
+                <StringItem index="41" value="IF2.01.09"/>
+                <StringItem index="42" value="IF2.01.10"/>
+                <StringItem index="43" value="IF2.02.01"/>
+                <StringItem index="44" value="IF2.02.02"/>
+                <StringItem index="45" value="IF2.02.03"/>
+                <StringItem index="46" value="IF2.02.04"/>
+                <StringItem index="47" value="IF2.02.05"/>
+                <StringItem index="48" value="IF2.02.06"/>
+                <StringItem index="49" value="IF2.02.07"/>
+                <StringItem index="50" value="IF2.02.08"/>
+                <StringItem index="51" value="IF2.02.09"/>
+                <StringItem index="52" value="IF2.03.01"/>
+                <StringItem index="53" value="IF2.03.02"/>
+                <StringItem index="54" value="IF2.03.03"/>
+                <StringItem index="55" value="IF2.03.04"/>
+                <StringItem index="56" value="IF2.03.05"/>
+                <StringItem index="57" value="IF2.03.06"/>
+                <StringItem index="58" value="IF2.03.07"/>
+                <StringItem index="59" value="IF2.03.08"/>
+                <StringItem index="60" value="IF3.01.01"/>
+                <StringItem index="61" value="IF3.01.02"/>
+                <StringItem index="62" value="IF3.01.03"/>
+                <StringItem index="63" value="IF3.01.04"/>
+                <StringItem index="64" value="IF3.01.05"/>
+                <StringItem index="65" value="IF3.01.06"/>
+                <StringItem index="66" value="IF3.01.07"/>
+                <StringItem index="67" value="IF3.01.08"/>
+                <StringItem index="68" value="IF3.02.01"/>
+                <StringItem index="69" value="IF3.02.02"/>
+                <StringItem index="70" value="IF3.02.03"/>
+                <StringItem index="71" value="IF3.02.05"/>
+                <StringItem index="72" value="IF3.02.06"/>
+                <StringItem index="73" value="IF3.02.07"/>
+                <StringItem index="74" value="IF3.02.08"/>
+                <StringItem index="75" value="IF3.02.10"/>
+                <StringItem index="76" value="IF3.02.11"/>
+                <StringItem index="77" value="IF3.03.01"/>
+                <StringItem index="78" value="IF3.03.02"/>
+                <StringItem index="79" value="IF3.03.03"/>
+                <StringItem index="80" value="IF3.03.04"/>
+                <StringItem index="81" value="IF3.03.05"/>
+                <StringItem index="82" value="IF3.03.06"/>
+                <StringItem index="83" value="IF3.03.07"/>
+                <StringItem index="84" value=" "/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="10" y="100" width="240" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="10" y="480" width="240" height="200"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                          <Component id="jScrollPane1" pref="220" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" pref="158" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel3">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Fully Closed Shortest Path"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="close">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Browallia New" size="36" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="TELUR IRIS"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="90" y="10" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="2" name="D:\!Tiaraaaa\!BismillahTA\BismillahTA\egg_60x51.png"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="20" y="10" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Container class="javax.swing.JPanel" name="jPanel4">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="10" y="280" width="240" height="190"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                          <Component id="jScrollPane2" alignment="0" pref="220" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jScrollPane2" pref="148" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel4">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Shortest Path"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="open">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JButton" name="dButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Dijkstra"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="10" y="130" width="120" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="fwButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Floyd-Warshall"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="10" y="170" width="120" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="bfButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Bellman-Ford"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="10" y="210" width="120" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Container class="javax.swing.JPanel" name="jShow">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="260" y="10" width="1080" height="710"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace pref="941" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="left" min="-2" pref="39" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="down" min="-2" pref="39" max="-2" attributes="0"/>
+                                          <Component id="circle" min="-2" pref="39" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Component id="up" alignment="1" min="-2" pref="39" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="right" min="-2" pref="39" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="zoomIn" min="-2" pref="60" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="zoomOut" min="-2" pref="60" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="up" min="-2" pref="39" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="right" alignment="3" min="-2" pref="39" max="-2" attributes="0"/>
+                          <Component id="circle" alignment="3" min="-2" pref="39" max="-2" attributes="0"/>
+                          <Component id="left" alignment="3" min="-2" pref="39" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="down" min="-2" pref="39" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="zoomOut" max="32767" attributes="0"/>
+                          <Component id="zoomIn" pref="35" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="496" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="up">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="2" name="D:\!Tiaraaaa\!BismillahTA\BismillahTA\up.png"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="down">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="2" name="D:\!Tiaraaaa\!BismillahTA\BismillahTA\down.png"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="right">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="2" name="D:\!Tiaraaaa\!BismillahTA\BismillahTA\right.png"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="circle">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="2" name="D:\!Tiaraaaa\!BismillahTA\BismillahTA\circle.png"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="left">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="2" name="D:\!Tiaraaaa\!BismillahTA\BismillahTA\left.png"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="zoomIn">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="+"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="zoomOut">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="-"/>
+                <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[41, 23]"/>
+                </Property>
+                <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[41, 23]"/>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="timeExecution">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="99" red="0" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="time"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="10" y="690" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="astar">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="A*"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="10" y="250" width="120" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Container class="javax.swing.JPanel" name="jPanel3">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                <TitledBorder justification="2" title="Show Graph by Z">
+                  <Font PropertyName="font" name="Times New Roman" size="9" style="1"/>
+                </TitledBorder>
+              </Border>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="140" y="200" width="110" height="75"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="zValue" alignment="1" max="32767" attributes="0"/>
+                          <Component id="okButton" alignment="0" pref="78" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="zValue" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="okButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JComboBox" name="zValue">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="4">
+                    <StringItem index="0" value="1"/>
+                    <StringItem index="1" value="2"/>
+                    <StringItem index="2" value="3"/>
+                    <StringItem index="3" value="ALL"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="okButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="OK"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JButton" name="twoD">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="2D"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="140" y="130" width="110" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="threeD">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="3D"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="140" y="170" width="110" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
